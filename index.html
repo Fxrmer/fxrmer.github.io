@@ -1,177 +1,130 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Former</title>
-    <meta
-      name="description"
-      content="Official former website, I am mainly a javascript and python developer. You can find my socials and other stuff here."
-    />
-    <meta charset="utf-8" />
-    <meta name="robots" content="index,follow" />
-    <link rel="icon" href="/img/Screenshot 2020-12-06 130325.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      img {
-        border-radius: 50%;
-        vertical-align: middle;
-      }
-      span {
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 43px;
-        text-align: center;
-        color: white;
-      }
-      h1 {
-        font-family: monospace;
-        font-weight: normal;
-        font-size: 27px;
-        text-align: center;
-        color: white;
-      }
-      h2 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-weight: normal;
-        font-size: 27px;
-        text-align: center;
-        background-color: #7289da;
-        margin: 5;
-        padding: 5;
-      }
-      h3 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-weight: normal;
-        font-size: 27px;
-        text-align: center;
-        background-color: white;
-        margin: 5;
-        padding: 5;
-      }
-      h4 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-weight: normal;
-        font-size: 27px;
-        text-align: center;
-        background-color: #fe4415;
-        margin: 5;
-        padding: 5;
-      }
-      h5 {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-weight: normal;
-        font-size: 27px;
-        text-align: center;
-        background-color: #33af33;
-        margin: 0;
-        padding: 0;
-      }
-      h6 {
-        font-family: monospace;
-        font-weight: normal;
-        font-size: 25px;
-        text-align: center;
-        color: white;
-        padding-top: 25px;
-        margin: 5;
-        padding: 5;
-      }
-      p {
-        font-family: monospace;
-        font-weight: normal;
-        font-size: 20px;
-        text-align: center;
-        color: white;
-      }
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      a.button {
-        -webkit-appearance: button;
-        -moz-appearance: button;
-        appearance: button;
-        text-decoration: none;
-        color: initial;
-      }
-    </style>
-  </head>
-  <!-- <style>
-    /* /* body {
-      /* background-image: url("/img/1385491.jpg");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover; */
-    } */
-  </style> -->
-  */
-  <body style="background-color: black">
-    <img
-      width="180"
-      height="180"
-      src="/img/tenor (1).gif"
-      border="white"
-      alt="Former"
-      class="center"
-    />
-    <div style="text-align: center">
-      <span style> Former </span>
-    </div>
-    <h1>Hi, this is my mini portfolio.</h1>
-    <h2>
-      <a
-        href="https://discord.com/users/491991197330440193"
-        target="_blank"
-        class="button"
-        >Discord</a
-      >
-    </h2>
-    <h3>
-      <a href="https://github.com/fxrmer" target="_blank" class="button"
-        >Github</a
-      >
-    </h3>
-    <h4>
-      <a
-        href="https://www.reddit.com/user/FormerNewt67603"
-        target="_blank"
-        class="button"
-        >Reddit</a
-      >
-    </h4>
-    <h5>
-      <a
-        href="https://open.spotify.com/user/0ts13ah5ytnna7ilf5rs2d5ts"
-        target="_blank"
-        class="button"
-        >Spotify</a
-      >
-    </h5>
-    <!-- <p>Hello there</p>
-    <p>Hello there, this could be just some normal text.</p>
-    <video controls src=""></video> -->
-  </body>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+            <h1>Hello, <span></span></h1>
+            <h1>My Name is <span></span></h1>
+            <h1>Former <span></span></h1>
+            <a href="#" type="button" class="cta">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Service Section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title"><span>Pro</span>jects</h1>
+                <p>I have made a number of projects, a lot of which involve Discord. I have also a few python automation bots to save time or for fun.</p>
+            </div>
+            <div class="service-bottom"></div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/nolan/64/bot.png"/></div>
+                <h2>Discord Bot</h2>
+                <p>I have made <a href="https://top.gg/bot/778917364091453460" style="color:#7289DA" target="_blank">a discord bot</a> named Agent. I used discord.js to make this bot. Commands for this bot include: kick, ban, pp and slowmode. I have yet to add commands like set prefix, unban and role. In the future, I might make a currency system, game system and hopefully a ticket system.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/nolan/64/python.png"/></div>
+                <h2>Python Automation</h2>
+                <p>I have made a few python automation bots. One of which is a bot which opens the apps and tabs I open when I launch my computer. I have also made the program run on startup. I have also made a dank memer farming bot</p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/nolan/64/unity.png"/></div>
+                <h2>Unity Game</h2>
+                <p>I have made a simple cube game on Unity. Obviously, it is unreleased since it isn't good or original; as I am not very familar with C#, C++ or Unity, I used <a href="https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL" style="color:#f18d74" target="_blank">Brackeys's tutorial series</a> to make the game.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="img/astrounat on moon.png" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>Me</span></h1>
+                <h2>Javascript, HTML and Python Developer</h2>
+                <p>I am an unexperienced developer. I am self-taught and I do not have a job nor am I a student. I starting programming 4 months ago and have been learning ever since.</p>
+                <a href="https://discord.com/users/491991197330440193" class="cta" target="_blank">DM Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">My <span>Socials</span></h1></div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/ios/400/000000/discord-logo.png"/></div>
+                    <div class="contact-info">
+                        <h1>Discord</h1>
+                        <h2><a href="https://discord.com/users/491991197330440193" target="_blank">Former#7307</a></h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/ios/50/000000/github.png"/></div>
+                    <div class="contact-info">
+                        <h1>Github</h1>
+                        <h2><a href="https://github.com/fxrmer" target="_blank">Fxrmer</a></h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/ios/50/000000/reddit.png"/></div>
+                    <div class="contact-info">
+                        <h1>Reddit</h1>
+                        <h2><a href="https://www.reddit.com/user/FormerNewt67603" target="_blank">FormerNewt67603</a></h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/ios/50/000000/spotify.png"/></div>
+                    <div class="contact-info">
+                        <h1>Spotify</h1>
+                        <h2><a href="https://open.spotify.com/user/0ts13ah5ytnna7ilf5rs2d5ts" target="_blank">Former</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1><span>For</span>mer</h1></div>
+            <h2>My Mini Portfolio</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://discord.com/users/491991197330440193" target="_blank"><img src="https://img.icons8.com/bubbles/64/000000/discord-logo.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://github.com/fxrmer" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.reddit.com/user/FormerNewt67603" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/reddit.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://open.spotify.com/user/0ts13ah5ytnna7ilf5rs2d5ts" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/spotify.png"/></a>
+                </div>
+            </div>
+            <p>Copyright © 2020 Former. All rights reserved</p>
+        </div>
+    </section>
+    <!-- End of Footer -->
+</body>
 </html>
-
-<h6>Projects:</h6>
-<p>
-  Projects I have made include: a discord bot in 72 servers (using discord.js),
-  a various amount of python bots including a dank memer farming bot, a spam
-  bot, a snake game using the turtle module on python and a coinflip bot. 
-</p>
-
-<h6>Discord:</h6>
-<p>
-  <a
-    href="https://discord.com/oauth2/authorize?client_id=778917364091453460&scope=bot&permissions"
-    target="_blank"
-    >Add Discord Bot</a
-  >
-  <a href="https://discord.gg/VsbFp5NykP" target="_blank">Coding Cave</a>
-  <a href="https://discord.gg/eDte7UX3sv" target="_blank">Agent Support</a>
-  <a href="https://discord.gg/fgGD3xG" target="_blank">Among Us Hangout</a>
-</p>
