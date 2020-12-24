@@ -301,11 +301,11 @@ p {
     border-radius: 10px;
     /* background-color: black; */
     background-image: url(img/wallpaperflare.com_wallpaper\ \(6\).jpg);
-    background-size: cover;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background-size: 540px;
     /* background-size: 495px; */
 }
 #projects .service-item::after{
