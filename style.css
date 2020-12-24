@@ -365,6 +365,9 @@ p {
     padding: 10px 20px;
     font-size: 2rem;
 }
+#about .col-right .cta:hover{
+    color: white;
+}
 #about .col-left .about-img {
  height: 275px;
  width: 350px;
