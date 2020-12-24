@@ -154,8 +154,7 @@ p {
     z-index: 100;
     cursor: pointer;
     transform: scale(.8);
-    margin-right: 10px;
-    margin-top: 7px
+    margin: 0px 10px;
 }
 #header .hamburger:after {
     position: absolute;
