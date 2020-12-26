@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    overflow: auto;
+}
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +15,11 @@ html {
 }
 
    ::-webkit-scrollbar {
-    width: 10px;
+    width: 11px;
+  }
+  ::-webkit-scrollbar-track {
+      background: black;
+      /* border-radius: 10px; */
   }
   ::-webkit-scrollbar-thumb {
     background: crimson;
@@ -20,6 +27,9 @@ html {
   }
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(185, 11, 46); 
+  }
+  ::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
   }
 
 a {
