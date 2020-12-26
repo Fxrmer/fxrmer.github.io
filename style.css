@@ -28,9 +28,6 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(185, 11, 46); 
   }
-  ::-webkit-scrollbar-corner {
-    background: rgba(0,0,0,0);
-  }
 
 a {
     text-decoration: none;
