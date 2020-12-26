@@ -19,11 +19,11 @@ html {
   }
   ::-webkit-scrollbar-track {
       background: black;
-      /* border-radius: 10px; */
+      border-radius: 1px;
   }
   ::-webkit-scrollbar-thumb {
     background: crimson;
-    /* border-radius: 10px; */
+    border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(185, 11, 46); 
